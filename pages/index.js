@@ -110,7 +110,7 @@ export default function Home() {
             }
           </div>
           {
-            watch("isLearning") === 'true' || watch("wasLearning") === 'true' ?
+            (watch("isLearning") === 'true' || watch("wasLearning") === 'true') ?
               <>
                 <div>
                   <span>Q5. 今まで学習したことのあるプログラミング言語を全て教えて下さい。</span>
